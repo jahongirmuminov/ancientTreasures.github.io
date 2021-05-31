@@ -33,10 +33,10 @@ const NavbarJS = () => {
           </li>
           <li className="listItem">
             <Link className="navLinkItem " to="/celtics">
-              <SearchOutlinedIcon/>
+              <SearchOutlinedIcon  style={{height:"24px"}} fontSize={'default'}/>
             </Link>
             <Link className="navLinkItem" to="/celtics">
-              <ShoppingCartOutlinedIcon style={{marginLeft:"20px"}}/>
+              <ShoppingCartOutlinedIcon fontSize={'default'} style={{marginLeft:"20px",height:"24px"}}/>
             </Link>
           </li>
         </ul>

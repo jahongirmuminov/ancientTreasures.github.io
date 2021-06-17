@@ -7,6 +7,7 @@
 }
 body{
   background: #E5E5E5;
+  font-family: Goudy Bookletter 1911;
 }
 
 .navbarRight{
@@ -24,7 +25,6 @@ body{
   padding-top: 25px;
 }
 .listItem .navLinkItem{
-font-family: Mulish;
 font-size: 21px;
 font-style: normal;
 font-weight: 700;
@@ -52,12 +52,8 @@ border-bottom: none;
 .h1Tag{
   height: 88px;
   width: 563px;
-  position: relative;
-  left: 280px;
-  top: 300px;
   align-items: center;
   justify-content: center;
-  border-radius: nullpx;
 }
 .h1Tag h2{
 font-family: Goudy Bookletter 1911;
@@ -90,4 +86,29 @@ line-height: 20px;
 display: flex;
 align-items: center;
 color: #fff;
+}
+.btnPlusAndMunis{
+  width:32px;
+  background-color: #fff;
+  border:1px solid #D8D8D8;
+  height: 32px;
+font-weight: bold;
+line-height: 13px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.changingBtn{
+height: 32px;
+width: 61px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background-color: #fff;
+height: 32px;
+font-weight: bold;
+line-height: 13px;
+font-size: 16px;
+text-transform: uppercase;
+border:1px solid #D8D8D8;
+/* background-color: #2020200d; */
 }

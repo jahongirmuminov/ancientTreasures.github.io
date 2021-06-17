@@ -11,7 +11,7 @@ function App() {
     <Router>
        <NavbarJS/>
          <Switch>
-          <Route exact  path="/sale" component={Sale} />
+          <Route  exact  path="/" component={Sale} />
            
         </Switch>
       </Router>
